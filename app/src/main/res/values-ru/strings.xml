@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nueva_etiqueta">новая</string>
+    <string name="ingrese_nombre">Введите своё имя</string>
+    <string name="calculadora">Калькулятор ИМТ</string>
+    <string name="por">От JD</string>
+    <string name="ingresar_btn">Войти</string>
+    <string name="calcular_btn">Рассчитать ИМТ</string>
+    <string name="historial_btn">История</string>
+    <string name="salir_btn">Выйти</string>
+    <string name="peso_ted">Вес (кг)</string>
+    <string name="altura_ted">Рост (м)</string>
+    <string name="bienvenido_txt">Добро пожаловать</string>
+    <string name="usuario_txt">Пользователь:</string>
+    <string name="imc1">Недостаточный вес</string>
+    <string name="imc2">Норма</string>
+    <string name="imc3">Избыточный вес</string>
+    <string name="imc4">Ожирение</string>
+    <string name="mensaje1">Рост должен быть больше 0</string>
+    <string name="mensaje2">Пожалуйста, введите вес и рост</string>
+    <string name="mensaje3">Данные ИМТ загружены</string>
+    <string name="ingrese_pass">пароль</string>
+    <string name="registro_btn">зарегистрироваться</string>
+</resources>

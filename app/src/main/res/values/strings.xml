@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nueva_etiqueta">nueva</string>
+    <string name="ingrese_nombre">Digite su nombre</string>
+    <string name="calculadora">Calculadora IMC</string>
+    <string name="por">Por JD</string>
+    <string name="ingresar_btn">Ingresar</string>
+    <string name="calcular_btn">Calcular IMC</string>
+    <string name="historial_btn">Historial</string>
+    <string name="salir_btn">Salir</string>
+    <string name="peso_ted">Peso (kg)</string>
+    <string name="altura_ted">Altura (m)</string>
+    <string name="bienvenido_txt">Bienvenido</string>
+    <string name="usuario_txt">"Usuario: "</string>
+    <string name="imc1">Bajo peso</string>
+    <string name="imc2">Normal</string>
+    <string name="imc3">Sobrepeso</string>
+    <string name="imc4">Obesidad</string>
+    <string name="mensaje1">La altura debe ser mayor que 0</string>
+    <string name="mensaje2">Por favor ingrese peso y altura</string>
+    <string name="mensaje3">Se cargaron los datos IMC</string>
+    <string name="ingrese_pass">Contraseña</string>
+    <string name="registro_btn">Registrarse</string>
+</resources>

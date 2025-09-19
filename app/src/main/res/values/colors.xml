@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">	#6565bf</color>
+    <color name="blues">#bfbfe3</color>
+    <color name="morado1">#8032cf</color>
+    <color name="morado2">#a772db</color>
+    <color name="azul1">#6262e3</color>
+    <color name="azul2">#a2a2f5</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon application</string>
+    <string name="nueva_etiqueta">nouvelle</string>
+    <string name="ingrese_nombre">Entrez votre nom</string>
+    <string name="calculadora">Calculateur IMC</string>
+    <string name="por">Par JD</string>
+    <string name="ingresar_btn">Entrer</string>
+    <string name="calcular_btn">Calculer IMC</string>
+    <string name="historial_btn">Historique</string>
+    <string name="salir_btn">Quitter</string>
+    <string name="peso_ted">Poids (kg)</string>
+    <string name="altura_ted">Taille (m)</string>
+    <string name="bienvenido_txt">Bienvenue</string>
+    <string name="usuario_txt">Utilisateur : </string>
+    <string name="imc1">Insuffisance pondérale</string>
+    <string name="imc2">Normal</string>
+    <string name="imc3">Surpoids</string>
+    <string name="imc4">Obésité</string>
+    <string name="mensaje1">La taille doit être supérieure à 0</string>
+    <string name="mensaje2">Veuillez entrer le poids et la taille</string>
+    <string name="mensaje3">Les données IMC ont été chargées</string>
+    <string name="ingrese_pass">Mot de passe</string>
+    <string name="registro_btn">Registre</string>
+</resources>
