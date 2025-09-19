@@ -42,6 +42,7 @@
         android:hint="@string/ingrese_pass"
         android:padding="12dp"
         android:textColor="@android:color/white"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"

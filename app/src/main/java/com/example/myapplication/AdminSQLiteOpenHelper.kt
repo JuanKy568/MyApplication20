@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory
 class AdminSQLiteOpenHelper(context: Context, name: String, factory: CursorFactory?, version: Int) : SQLiteOpenHelper(context, name, factory, version) {
 
     override fun onCreate(db: SQLiteDatabase) {
-        db.execSQL("CREATE TABLE imc(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, info TEXT, imc REAL, date TEXT, time TEXT)")
+        db.execSQL("CREATE TABLE imc(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, info TEXT, peso REAL, altura REAL, imc REAL, date TEXT, time TEXT)")
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {

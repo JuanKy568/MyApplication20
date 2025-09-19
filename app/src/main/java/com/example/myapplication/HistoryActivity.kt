@@ -34,18 +34,21 @@ class HistoryActivity : AppCompatActivity() {
 
             // 🔹 Filtramos solo los registros del usuario logueado
             val cursor = bd.rawQuery(
-                "SELECT name, info, imc, date, time FROM imc WHERE name = ? COLLATE NOCASE",
+                "SELECT name, info, peso, altura, imc, date, time FROM imc WHERE name = ? COLLATE NOCASE",
                 arrayOf(userName)
             )
 
             while (cursor.moveToNext()) {
                 val name = cursor.getString(0)
                 val info = cursor.getString(1)
-                val imc = cursor.getString(2)
-                val date = cursor.getString(3)
-                val time = cursor.getString(4)
+                val peso = cursor.getString(2)
+                val altura = cursor.getString(3)
+                val imc = cursor.getString(4)
+                val date = cursor.getString(5)
+                val time = cursor.getString(6)
 
-                lista.add("👤 $name - $info ($imc)\n📅 $date ⏰ $time")
+                lista.add("👤 $name \n $info (IMC: $imc)\n⚖️ Peso: $peso kg | 📏 Altura: $altura m\n📅 $date ⏰ $time")
+
             }
 
             Toast.makeText(this, "Registros de $userName: ${cursor.count}", Toast.LENGTH_SHORT).show()

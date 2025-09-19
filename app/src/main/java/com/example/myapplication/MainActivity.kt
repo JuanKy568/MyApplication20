@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     resultadoTextView.text = "IMC: %.2f\n$categoria".format(imc)
-                    savename(imc, categoria)
+                    savename(imc, categoria,peso, altura )
 
                 } else {
                     resultadoTextView.text = getString(R.string.mensaje1)
@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // funcion para guardar imc y nombre
-    private fun savename(imc: Double, categoria: String) {
+    private fun savename(imc: Double, categoria: String, peso: Double, altura: Double) {
         val prefs = getSharedPreferences("MyAppPrefs", MODE_PRIVATE)
         val userName = prefs.getString("USER_NAME", null)
 
@@ -106,12 +106,15 @@ class MainActivity : AppCompatActivity() {
         val timeFormat = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
         val currentTime = timeFormat.format(Date())
 
+
         // registro
         val admin = AdminSQLiteOpenHelper(this, "administracion", null, 1)
         val bd = admin.writableDatabase
         val registro = ContentValues()
         registro.put("name", userName)
         registro.put("info", categoria)
+        registro.put("peso", peso)
+        registro.put("altura", altura)
         registro.put("imc", imc)
         registro.put("date", currentDate)
         registro.put("time", currentTime)
